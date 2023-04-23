@@ -472,31 +472,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/martini/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/martini/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/oneplus/martini/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm.lst:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm.lst \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm1.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm10.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm10.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm11.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm11.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm12.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm12.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm13.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm13.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm13_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm13_low.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm14.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm14_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_low.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm15.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm15.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm15_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm15_low.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm16.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm17.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm18.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm2.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm3.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm4.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm5.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm6.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm7.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm7.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm8.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/inParm9.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm9.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/mcfCheck.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/inparm/irissoft/mcfCheck_low.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/mcfCheck_low.txt \
-    vendor/oneplus/martini/proprietary/odm/etc/irissoft.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft.fw \
     vendor/oneplus/martini/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat \
     vendor/oneplus/martini/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Configuration.txt \
     vendor/oneplus/martini/proprietary/odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/lvacfs_params/2mic/LVACFS_Parameter_ID10_MIC_VR.txt \
