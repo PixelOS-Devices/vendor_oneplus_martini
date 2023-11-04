@@ -3,12 +3,13 @@
     "isParamAdjustOpen":1,
     "appConfigList": [
         {
-         "appName":"WeChat",
-         "packageName":"com.tencent.mm",
+         "appName":"Zalo",
+         "packageName":"com.zing.zalo",
          "videoBeautyParam":
             {
                 "isOpen": 0,
-                "fbParam": "40,0,0,0,0,0,0,0,40,0,0"
+                "fbParam": "0,0,0,0,0,0,0,0,0,0,0",
+                "activityName": "voip"
             }
         }
     ]

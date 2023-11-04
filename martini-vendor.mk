@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/martini/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
     vendor/oneplus/martini/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
     vendor/oneplus/martini/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
+    vendor/oneplus/martini/proprietary/odm/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_preview_decision_params.json \
     vendor/oneplus/martini/proprietary/odm/etc/camera/config/ov02b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov02b \
     vendor/oneplus/martini/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/oneplus/martini/proprietary/odm/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_main.bin \
@@ -531,9 +532,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libQnnHtpSkel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libQnnHtpSkel.so \
     vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libSuperRawPost_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libSuperRawPost_skel.so \
     vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so \
-    vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libaiboost_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaiboost_skel.so \
-    vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libaiboost_skel_v65.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaiboost_skel_v65.so \
-    vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libaiboost_skel_v66.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaiboost_skel_v66.so \
     vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so \
     vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so \
     vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so \
@@ -541,8 +539,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so \
     vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_20031.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_20031.so \
     vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_20820.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_20820.so \
-    vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libc++.so.1:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libc++.so.1 \
-    vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libc++abi.so.1:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libc++abi.so.1 \
     vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libcalculator_domains_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libcalculator_domains_skel.so \
     vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libcalculator_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libcalculator_skel.so \
     vendor/oneplus/martini/proprietary/odm/lib/rfsa/adsp/libhdr_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libhdr_skel.so \
@@ -655,6 +651,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/martini/proprietary/odm/lib64/libapsdarksight.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsdarksight.so \
     vendor/oneplus/martini/proprietary/odm/lib64/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsexif.so \
     vendor/oneplus/martini/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
+    vendor/oneplus/martini/proprietary/odm/lib64/libapsyuv.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsyuv.so \
     vendor/oneplus/martini/proprietary/odm/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_distortion_correction.so \
     vendor/oneplus/martini/proprietary/odm/lib64/libarcsoft_dual_sat.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dual_sat.so \
     vendor/oneplus/martini/proprietary/odm/lib64/libarcsoft_dual_zoomtranslator.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dual_zoomtranslator.so \
@@ -694,6 +691,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/martini/proprietary/odm/lib64/libdualcam_image_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_image_optical_zoom.so \
     vendor/oneplus/martini/proprietary/odm/lib64/libdualcam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_optical_zoom_control.so \
     vendor/oneplus/martini/proprietary/odm/lib64/libdualcam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_video_optical_zoom.so \
+    vendor/oneplus/martini/proprietary/odm/lib64/libexif-jpeg-aps.so:$(TARGET_COPY_OUT_ODM)/lib64/libexif-jpeg-aps.so \
     vendor/oneplus/martini/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
     vendor/oneplus/martini/proprietary/odm/lib64/libhta.so:$(TARGET_COPY_OUT_ODM)/lib64/libhta.so \
     vendor/oneplus/martini/proprietary/odm/lib64/libhwconfigurationutil.so:$(TARGET_COPY_OUT_ODM)/lib64/libhwconfigurationutil.so \
@@ -723,12 +721,15 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/martini/proprietary/odm/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_video_optical_zoom.so \
     vendor/oneplus/martini/proprietary/odm/lib64/libui.so:$(TARGET_COPY_OUT_ODM)/lib64/libui.so \
     vendor/oneplus/martini/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
+    vendor/oneplus/martini/proprietary/odm/lib64/libyuvwrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libyuvwrapper.so \
     vendor/oneplus/martini/proprietary/odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so \
     vendor/oneplus/martini/proprietary/odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so \
     vendor/oneplus/martini/proprietary/odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so \
     vendor/oneplus/martini/proprietary/odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so \
     vendor/oneplus/martini/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/oneplus/martini/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
+    vendor/oneplus/martini/proprietary/odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so \
+    vendor/oneplus/martini/proprietary/odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so \
     vendor/oneplus/martini/proprietary/odm/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/oneplus/martini/proprietary/odm/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.1.so \
     vendor/oneplus/martini/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
@@ -942,8 +943,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/martini/proprietary/vendor/lib64/vendor.oplus.hardware.cameraextension-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cameraextension-V1-ndk_platform.so \
     vendor/oneplus/martini/proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
     vendor/oneplus/martini/proprietary/vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so \
+    vendor/oneplus/martini/proprietary/vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so \
     vendor/oneplus/martini/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 PRODUCT_PACKAGES += \
     manifest_oplus_cameraextension_aidl \
-    manifest_oplus_fingerprint
+    manifest_oplus_fingerprint \
+    manifest_oplus_sendextcamcmd
