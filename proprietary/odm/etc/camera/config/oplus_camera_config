@@ -1205,10 +1205,24 @@
 },
 
 {
+  "VendorTag": "com.oplus.camera.support.early.start.gallery",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
   "VendorTag": "com.oplus.support.professional.mode.in.headline",
   "Type": "Byte",
   "Count": "1",
   "Value": "0"
+},
+
+{
+  "VendorTag": "com.oplus.camera.pro.sat.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
 }
 
 ]
