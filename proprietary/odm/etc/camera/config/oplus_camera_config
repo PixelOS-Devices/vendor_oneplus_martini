@@ -1219,7 +1219,7 @@
 },
 
 {
-  "VendorTag": "com.oplus.camera.pro.sat.support",
+  "VendorTag": "com.oplus.camera.pro.2x.none.switch.sensor",
   "Type": "Byte",
   "Count": "1",
   "Value": "1"
